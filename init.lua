@@ -192,6 +192,9 @@ require('lazy').setup({
 -- [[ Setting options ]]
 -- See `:help vim.o`
 
+-- Set language
+vim.api.nvim_exec('language en_GB', true)
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
